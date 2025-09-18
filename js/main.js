@@ -66,7 +66,7 @@
   var AdmireXcel_button = () => {
     $(".tf-btn").each(function () {
       var button_width = $(this).outerWidth();
-      $(this).css("--AdmireXcel-button-width", button_width + "px");
+      $(this).css("--Xcel Tech-button-width", button_width + "px");
     });
     $(".tf-btn")
       .on("mouseenter", function (e) {
